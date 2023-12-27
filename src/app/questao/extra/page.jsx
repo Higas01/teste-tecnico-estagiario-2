@@ -1,3 +1,5 @@
+import TodoList from "@/app/components/TodoList/TodoList";
+
 export default function QuestaoExtra() {
   return (
     <>
@@ -10,6 +12,7 @@ export default function QuestaoExtra() {
         Todos os botões precisam ser redondos e ficarem quadrados quando o mouse estiver sobre eles.
         A lista deve ser salva no localStorage.
       </p>
+      <TodoList/>
     </>
   );
 }

@@ -1,0 +1,38 @@
+
+.btn_submit {
+    background-color: #0080ff;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.input {
+    padding: 8px;
+}
+
+.btn_reset {
+    margin: 10px;
+    display: block;
+    background-color: #0eda0a;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_remove {
+    background-color: #ff0000;
+    border: none;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 6px;
+}
+
+.list_container {
+    margin: 10px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
